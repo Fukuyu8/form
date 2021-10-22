@@ -1,0 +1,108 @@
+.karaoke{
+    color: black;
+    font-size: 130px;
+    font-weight: bold;
+    text-align: center;
+    position: bottom;
+    
+}
+.header{
+  
+    padding: 10px;
+    background: -moz-radial-gradient(#F13F79,#FFC778);
+    background: -webkit-radial-gradient(#F13F79,#FFC778);
+    background: radial-gradient(#F13F79,#FFC778);
+}
+.enjoy{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.enjoy img{
+    border-radius: 100px;
+    margin: 30px 20px;
+}
+h2{
+    font-size: 40px;
+}
+.enjoy_title{
+    padding-left: 130px;
+    padding-bottom: 10px;
+    margin: 30px 30px;
+    border-radius: 100px;
+    background: -moz-linear-gradient(top,#FFF,#FFC778 30%,#748af8,#F89174 60%);
+    background: -webkit-linear-gradient(top,#FFF,#FFC778 30%,#F89174 60%, #748af8);
+    background: linear-gradient(to bottom,top,#FFF,#FFC778 30%,#F89174 60%, #748af8);
+}
+
+.enjoy_txt{
+    font-size: 25px;
+    font-weight: bold;
+    width: 75%;
+    color: navy;
+}
+.setumei{
+   
+   background-color: black;
+}
+.Ai{
+    padding-top: 100px;
+    text-align: center;
+}
+.Ai img{
+    width: 650px;
+    border-radius: 100px 0 100px 0;
+}
+
+.setumei_txt{
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+h3{
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.ai_txt{
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.kokokara{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    color: yellow;
+    
+}
+/* 予約フォーム */
+.yoyaku{
+text-align: center;
+font-size: 40px;
+margin: 60px;
+border: solid;
+}
+
+.yoyaku_form{
+    background-color: gray;
+}
+.txt_box{
+    display: inline-block;
+    width: 25%;
+    height: 35px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* 送信ボタン */
+.btn{
+    margin: 30px;
+    width: 350px;
+    height: 50px;
+}
+
