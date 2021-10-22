@@ -14,7 +14,7 @@ if ($file) {
   fclose($file); // ファイル閉じる
   // ($strに全部の情報が入る!)
 }
-var_dump($str);
+// var_dump($str);
 
 ?>
 
@@ -24,29 +24,25 @@ var_dump($str);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>textファイル書き込み型todoリスト（一覧画面）</title>
+  <title>予約（一覧画面）</title>
 </head>
 
 <body>
   <fieldset>
-    <legend>textファイル書き込み型todoリスト（一覧画面）</legend>
-    <a href="todo_txt_input.php">入力画面</a>
+    <legend>予約（一覧画面）</legend>
+    <a href="todo_txt_input.php">入力画面へ戻る</a>
     <table>
-      <thead>
-        <tr>
-          <th>日時,時間</th>
+      <div>------------------------</div>
+      <li>日時,時間</li>
 
-        </tr>
-      </thead>
-      <tbody></tbody>
-      <th>
-      <th>名前</th>
-      <th>電話番号</th>
-      <th>人数</th>
-      <th>機種</th>
-      </th>
+
+      <li>名前</li>
+      <li>電話番号</li>
+      <li>人数</li>
+      <li>機種</li>
+
       <?= $str; ?>
-      </tbody>
+      <div>------------------------</div>
     </table>
   </fieldset>
 </body>
